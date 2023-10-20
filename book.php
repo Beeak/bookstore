@@ -39,6 +39,7 @@ var_dump($book);
         }
         ?>
     </ul>
+    <a href="edit.php?id=<?= $id ?>"> Muuda </a>
 </body>
 
 </html>
