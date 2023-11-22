@@ -91,7 +91,9 @@ if (isset($_POST['submit'])) {
             <input class="search_bar bg-gray-200" type="text" placeholder="Search books.." name="key">
             <input class="submit_button border-2 border-black" type="submit" value="Submit" name="submit">
         </form>
-
+        <div>
+            <a href="author.php">Add a new author!</a>
+        </div>
     </div>
     <ul>
         <?php
